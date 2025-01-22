@@ -3,17 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>сайтик</title>
+
+    <style>
+        a{
+            color: white;
+            background-color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+          background-color: #555;
+          text-decoration: underline;
+        }
+        body{
+            background-color: dodgerblue;
+            font-family: Arial, sans-serif;
+        }
+        #navigation{
+            background-color: #333;;
+            display: flex;
+            justify-content: space-between;
+        }
+        .NavigationsLinks{
+            display: block;
+            text-align: center;
+            color: white;
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <button>Категорії</button>
-                <button>Новини</button>
-                <button>Нові й варті уваги</button>
+        <nav id="navigation">
+            <div style="display: flex;">
+                <a href="" class="NavigationsLinks">Категорії</a>
+                <a href="" class="NavigationsLinks">Нові й варті уваги</a>
+                <a href="" class="NavigationsLinks">Новини</a>
             </div>
-            <div>
+            <div style="display: flex; align-items: center;">
                 <form>
                     <input type="text" name="search">
                     <input type="submit" value='Пошук'>
@@ -22,12 +49,12 @@
         </nav>
     </header>
     <main>
-       <h2>Віртуальна реальність</h2><br>
-       <div>
-        <img src="/images/Без імені.png" alt="Гра">
-        <img src="/images/2.png" alt="">
-        <img src="/images/3.png" alt="">
-        <img src="/images/4.png" alt="">
+        <div>
+            <h2>Віртуальна реальність</h2>
+            <img src="/images/Без імені.png" alt="Гра">
+            <img src="/images/2.png" alt="">
+            <img src="/images/3.png" alt="">
+            <img src="/images/4.png" alt="">
        </div><br>
        <h2>Оновлення та знижки</h2>
        <div>
